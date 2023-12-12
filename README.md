@@ -1,2 +1,2 @@
-# Exercises-For-CSS-Frameworks
-I code the designs published on iCodeThis site with Bootstrap, Tailwind and Bulma frameworks.
+# Tailwind Challenges
+I code the designs published on iCodeThis site with Tailwind CSS.
