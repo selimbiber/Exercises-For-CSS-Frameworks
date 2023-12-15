@@ -1,0 +1,14 @@
+{
+	"name": "first-tailwind-challenge",
+	"version": "1.0.0",
+	"description": "With this exercise, I am learning the basics of Tailwind CSS and preparing for my next Tailwind challenges.",
+	"main": "index.js",
+	"scripts": {
+		"watch": "npx tailwindcss -i ./input.css -o ./public/styles/main.css --watch"
+	},
+	"author": "selimbiber",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.3.6"
+	}
+}
