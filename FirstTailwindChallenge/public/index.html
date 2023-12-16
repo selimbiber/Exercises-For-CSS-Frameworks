@@ -18,28 +18,36 @@
 			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer" />
+		<link
+			rel="shortcut icon"
+			href="https://www.freeiconspng.com/thumbs/batman-icon-png/batman-icon-png-10.png"
+			type="image/x-icon" />
 		<title>Gega Project | Arin Software</title>
 	</head>
 	<body>
 		<!-- HEADER SECTION -->
-		<header class="bg-black py-6 lg:py-12 text-gega-grey font-gemunu uppercase">
+		<header
+			class="bg-black px-4 py-6 lg:py-12 text-gega-grey font-gemunu uppercase">
 			<!-- Header Container -->
 			<div
 				class="container flex items-center justify-between space-x-8 lg:space-x-16">
 				<!-- LOGO -->
-				<a
-					href="#"
-					class="pl-4 text-4xl lg:text-5xl font-bold text-transparent bg-gradient-to-t bg-clip-text from-gega-red to-gega-grey"
-					>GEGA</a
-				>
+				<h1>
+					<a
+						href="#"
+						class="text-4xl lg:text-5xl font-bold text-transparent bg-gradient-to-t bg-clip-text from-gega-red to-gega-grey"
+						>GEGA</a
+					>
+				</h1>
 				<!-- Mobile Menu -->
-				<div
-					class="block md:hidden pr-4"
-					title="click for open navigation menu">
-					<div class="space-y-1 cursor-pointer">
-						<div class="bg-gega-grey w-8 h-1 rounded-full"></div>
-						<div class="bg-gega-grey w-8 h-1 rounded-full"></div>
-						<div class="bg-gega-grey w-8 h-1 rounded-full"></div>
+				<div class="block md:hidden" title="click for open navigation menu ">
+					<div class="space-y-1 cursor-pointer group">
+						<div
+							class="bg-gega-grey w-8 h-1 rounded-full group-hover:bg-gega-red transition duration-300"></div>
+						<div
+							class="bg-gega-grey w-8 h-1 rounded-full group-hover:bg-gega-red transition duration-300"></div>
+						<div
+							class="bg-gega-grey w-8 h-1 rounded-full group-hover:bg-gega-red transition duration-300"></div>
 					</div>
 				</div>
 				<!-- Header Navigation -->
@@ -96,7 +104,7 @@
 							<li>
 								<a
 									href="#"
-									class="bg-gega-red px-3 py-1 mr-4 whitespace-nowrap hover:bg-rose-600 hover:text-gega-grey cursor-pointer transition duration-500"
+									class="bg-gega-red px-3 py-1 whitespace-nowrap hover:bg-rose-600 hover:text-gega-grey cursor-pointer transition duration-500"
 									>Sign Up</a
 								>
 							</li>
@@ -105,5 +113,76 @@
 				</nav>
 			</div>
 		</header>
+		<!-- MAIN SECTION -> Hero Section -->
+		<main>
+			<section aria-label="hero" class="h-64 md:h-96 lg:h-128 group relative">
+				<!-- Hero Image -->
+				<img
+					src="./images/batman.jpg"
+					alt="batman hero image"
+					class="h-full w-full object-cover" />
+				<!-- Hero Content -->
+				<article
+					class="absolute bottom-0 pl-4 w-full bg-gradient-to-b from-transparent to-black">
+					<!-- Hero Content Container -->
+					<div class="container">
+						<header>
+							<h2
+								class="text-gega-melon tracking-wider group-hover:mb-1 duration-500">
+								Action, Darama, Thriller
+							</h2>
+							<h3
+								class="text-4xl lg:text-6xl text-gega-grey group-hover:mb-1 duration-500">
+								The Dark Knight
+							</h3>
+						</header>
+						<p
+							class="text-gega-grey text-sm md:text-lg group-hover:mb-2 duration-500 w-2/3 md:w-2/4">
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							Voluptates porro veniam quibusdam quam natus dolorem pariatur
+							dolores voluptatum quis recusandae.
+						</p>
+						<!-- Content Details Container -->
+						<ul
+							class="flex space-x-8 opacity-0 group-hover:opacity-100 group-hover:mb-10 md:group-hover:mb-20 duration-1000">
+							<li class="flex space-x-2 items-center cursor-pointer">
+								<a
+									href="#"
+									class="text-gega-grey uppercase md:text-lg hover:text-gega-red duration-500"
+									>Watch Trailer</a
+								>
+								<div
+									class="flex h-6 md:h-8 w-6 md:w-8 text-center justify-center items-center bg-gega-red rounded-full text-gega-grey">
+									<i class="fas fa-play"></i>
+								</div>
+							</li>
+							<li class="flex space-x-2 items-center cursor-pointer">
+								<a
+									href="#"
+									class="text-gega-grey uppercase md:text-lg hover:text-gega-red duration-500"
+									>Full Synopsis</a
+								>
+								<div
+									class="flex h-6 md:h-8 w-6 md:w-8 text-center justify-center items-center bg-gega-red rounded-full text-gega-grey">
+									<i class="fas fa-arrow-right"></i>
+								</div>
+							</li>
+						</ul>
+						<!-- Content Points Container -->
+						<footer
+							class="flex space-x-3 absolute bottom-5 left-27 opacity-0 group-hover:opacity-100 duration-1000">
+							<span
+								class="h-3 w-3 md:h-4 md:w-4 rounded-full cursor-pointer bg-gega-red"></span>
+							<span
+								class="h-3 w-3 md:h-4 md:w-4 rounded-full cursor-pointer bg-gega-grey hover:bg-gega-red transition duration-300"></span>
+							<span
+								class="h-3 w-3 md:h-4 md:w-4 rounded-full cursor-pointer bg-gega-grey hover:bg-gega-red transition duration-300"></span>
+							<span
+								class="h-3 w-3 md:h-4 md:w-4 rounded-full cursor-pointer bg-gega-grey hover:bg-gega-red transition duration-300"></span>
+						</footer>
+					</div>
+				</article>
+			</section>
+		</main>
 	</body>
 </html>
