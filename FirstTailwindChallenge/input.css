@@ -12,7 +12,25 @@
 		@apply font-gemunu uppercase;
 	}
 
+	h3 {
+		@apply text-2xl tracking-wider cursor-pointer;
+	}
+
+	h4 {
+		@apply before:content-[''] before:block before:absolute before:w-64 before:left-0 before:bg-gega-red before:h-8 before:opacity-20 text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500 text-xl;
+	}
+
 	a {
 		@apply font-gemunu;
+	}
+
+	figure {
+		@apply cursor-pointer;
+	}
+}
+
+@layer components {
+	.movie-icon {
+		@apply hover:text-gega-red duration-300;
 	}
 }
