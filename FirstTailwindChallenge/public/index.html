@@ -24,7 +24,7 @@
 			type="image/x-icon" />
 		<title>Gega Project | Arin Software</title>
 	</head>
-	<body>
+	<body class="font-open">
 		<!-- HEADER SECTION -->
 		<header
 			class="bg-black px-4 py-6 lg:py-8 text-gega-grey font-gemunu uppercase">
@@ -116,7 +116,7 @@
 		<!-- MAIN SECTION --->
 		<main>
 			<!--Hero Subsection -->
-			<section aria-label="hero" class="h-64 md:h-96 lg:h-128 group relative">
+			<section aria-label="hero" class="h-96 lg:h-128 group relative">
 				<!-- Hero Image -->
 				<img
 					src="./images/batman.jpg"
@@ -187,12 +187,13 @@
 			<!-- Contents Subsection -->
 			<section aria-label="contents" class="py-24 pl-6 bg-black">
 				<!-- Contents Container -->
-				<div class="container flex space-x-16">
+				<div
+					class="container flex flex-col lg:flex-row lg:space-x-16 space-y-8">
 					<!-- Movies Contents Part -->
-					<article class="basis-2/3">
+					<article class="basis-2/3 pr-6 lg:pr-0">
 						<!-- Content Left Part Titles -->
 						<header
-							class="flex space-x-2 divide-x divide-gega-red divide-opacity-50 mb-8">
+							class="flex space-x-2 divide-x divide-gega-red divide-opacity-50 mb-8 pl-10 lg:pl-0">
 							<h3 class="text-gega-red">Latest</h3>
 							<h3 class="text-gega-grey pl-2 hover:text-gega-red duration-500">
 								Popular
@@ -203,8 +204,8 @@
 						</header>
 						<!-- Films Container -->
 						<ul class="flex flex-wrap">
-							<!-- Oblivion -->
-							<li class="basis-1/3">
+							<!-- Film Item 1  -->
+							<li class="basis-1/3 md:basis-1/4 lg:basis-1/3">
 								<!-- Movie Info Box -->
 								<figure class="group relative overflow-hidden rounded-md">
 									<!-- Movie Cover Image -->
@@ -216,7 +217,7 @@
 									<figcaption class="absolute px-6 bottom-8">
 										<h4>Oblivion</h4>
 										<p
-											class="text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											In, quaerat.
 										</p>
@@ -233,8 +234,8 @@
 									</figcaption>
 								</figure>
 							</li>
-							<!-- Into The Wild -->
-							<li class="basis-1/3">
+							<!-- Film Item 2  -->
+							<li class="basis-1/3 md:basis-1/4 lg:basis-1/3">
 								<!-- Movie Info Box -->
 								<figure class="group relative overflow-hidden rounded-md">
 									<!-- Movie Cover Image -->
@@ -246,7 +247,7 @@
 									<figcaption class="absolute px-6 bottom-8">
 										<h4>Into The Wild</h4>
 										<p
-											class="text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											In, quaerat.
 										</p>
@@ -263,38 +264,8 @@
 									</figcaption>
 								</figure>
 							</li>
-							<!-- Mulholland Drive -->
-							<li class="basis-1/3">
-								<!-- Movie Info Box -->
-								<figure class="group relative overflow-hidden rounded-md">
-									<!-- Movie Cover Image -->
-									<img
-										src="./images/mv3.jpg"
-										alt="mulholland drive"
-										class="group-hover:scale-110 group-hover:opacity-50 duration-500" />
-									<!-- Movie Details Container -->
-									<figcaption class="absolute px-6 bottom-8">
-										<h4>Mulholland Drive</h4>
-										<p
-											class="text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
-											Lorem ipsum dolor sit amet consectetur adipisicing elit.
-											In, quaerat.
-										</p>
-										<!-- Icons Container -->
-										<div
-											class="absolute flex space-x-8 text-gega-grey opacity-0 group-hover:opacity-100 -bottom-2 duration-500">
-											<a href="#" class="movie-icon"
-												><i class="fas fa-solid fa-play"></i
-											></a>
-											<a href="#" class="movie-icon"
-												><i class="fas fa-solid fa-arrow-right"></i
-											></a>
-										</div>
-									</figcaption>
-								</figure>
-							</li>
-							<!-- 2049 -->
-							<li class="basis-1/3">
+							<!-- Film Item 3 -->
+							<li class="basis-1/3 md:basis-1/4 lg:basis-1/3">
 								<!-- Movie Info Box -->
 								<figure class="group relative overflow-hidden rounded-md">
 									<!-- Movie Cover Image -->
@@ -306,7 +277,7 @@
 									<figcaption class="absolute px-6 bottom-8">
 										<h4>2049</h4>
 										<p
-											class="text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											In, quaerat.
 										</p>
@@ -323,57 +294,27 @@
 									</figcaption>
 								</figure>
 							</li>
-							<!-- The Forest -->
-							<li class="basis-1/3">
+							<!-- Film Item 4  -->
+							<li class="basis-1/3 md:basis-1/4 lg:basis-1/3">
 								<!-- Movie Info Box -->
 								<figure class="group relative overflow-hidden rounded-md">
 									<!-- Movie Cover Image -->
 									<img
-										src="./images/mv5.jpg"
-										alt="the forest"
+										src="./images/mv1.jpg"
+										alt="oblivion"
 										class="group-hover:scale-110 group-hover:opacity-50 duration-500" />
 									<!-- Movie Details Container -->
 									<figcaption class="absolute px-6 bottom-8">
-										<h4>The Forest</h4>
+										<h4>Oblivion</h4>
 										<p
-											class="text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											In, quaerat.
 										</p>
 										<!-- Icons Container -->
 										<div
 											class="absolute flex space-x-8 text-gega-grey opacity-0 group-hover:opacity-100 -bottom-2 duration-500">
-											<a href="#" class="movie-icon"
-												><i class="fas fa-solid fa-play"></i
-											></a>
-											<a href="#" class="movie-icon"
-												><i class="fas fa-solid fa-arrow-right"></i
-											></a>
-										</div>
-									</figcaption>
-								</figure>
-							</li>
-							<!-- Split -->
-							<li class="basis-1/3">
-								<!-- Movie Info Box -->
-								<figure class="group relative overflow-hidden rounded-md">
-									<!-- Movie Cover Image -->
-									<img
-										src="./images/mv6.jpg"
-										alt="split"
-										class="group-hover:scale-110 group-hover:opacity-50 duration-500" />
-									<!-- Movie Details Container -->
-									<figcaption class="absolute px-6 bottom-8">
-										<h4>Split</h4>
-										<p
-											class="text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
-											Lorem ipsum dolor sit amet consectetur adipisicing elit.
-											In, quaerat.
-										</p>
-										<!-- Icons Container -->
-										<div
-											class="absolute flex space-x-8 text-gega-grey opacity-0 group-hover:opacity-100 -bottom-2 duration-500">
-											<a href="#" class="movie-icon"
+											<a href="#" class="film-icon"
 												><i class="fas fa-solid fa-play"></i
 											></a>
 											<a href="#" class="film-icon"
@@ -383,23 +324,143 @@
 									</figcaption>
 								</figure>
 							</li>
+							<!-- Film Item 5  -->
+							<li class="basis-1/3 md:basis-1/4 lg:basis-1/3">
+								<!-- Movie Info Box -->
+								<figure class="group relative overflow-hidden rounded-md">
+									<!-- Movie Cover Image -->
+									<img
+										src="./images/mv2.jpg"
+										alt="into the wild movie "
+										class="group-hover:scale-110 group-hover:opacity-50 duration-500" />
+									<!-- Movie Details Container -->
+									<figcaption class="absolute px-6 bottom-8">
+										<h4>Into The Wild</h4>
+										<p
+											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											In, quaerat.
+										</p>
+										<!-- Icons Container -->
+										<div
+											class="absolute flex space-x-8 text-gega-grey opacity-0 group-hover:opacity-100 -bottom-2 duration-500">
+											<a href="#" class="movie-icon"
+												><i class="fas fa-solid fa-play"></i
+											></a>
+											<a href="#" class="movie-icon"
+												><i class="fas fa-solid fa-arrow-right"></i
+											></a>
+										</div>
+									</figcaption>
+								</figure>
+							</li>
+							<!-- Film Item 6  -->
+							<li class="basis-1/3 md:basis-1/4 lg:basis-1/3">
+								<!-- Movie Info Box -->
+								<figure class="group relative overflow-hidden rounded-md">
+									<!-- Movie Cover Image -->
+									<img
+										src="./images/mv4.jpg"
+										alt="2049"
+										class="group-hover:scale-110 group-hover:opacity-50 duration-500" />
+									<!-- Movie Details Container -->
+									<figcaption class="absolute px-6 bottom-8">
+										<h4>2049</h4>
+										<p
+											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											In, quaerat.
+										</p>
+										<!-- Icons Container -->
+										<div
+											class="absolute flex space-x-8 text-gega-grey opacity-0 group-hover:opacity-100 -bottom-2 duration-500">
+											<a href="#" class="movie-icon"
+												><i class="fas fa-solid fa-play"></i
+											></a>
+											<a href="#" class="movie-icon"
+												><i class="fas fa-solid fa-arrow-right"></i
+											></a>
+										</div>
+									</figcaption>
+								</figure>
+							</li>
+							<!-- Film Item 7  -->
+							<li class="hidden md:block md:basis-1/4 lg:hidden">
+								<!-- Movie Info Box -->
+								<figure class="group relative overflow-hidden rounded-md">
+									<!-- Movie Cover Image -->
+									<img
+										src="./images/mv1.jpg"
+										alt="oblivion"
+										class="group-hover:scale-110 group-hover:opacity-50 duration-500" />
+									<!-- Movie Details Container -->
+									<figcaption class="absolute px-6 bottom-8">
+										<h4>Oblivion</h4>
+										<p
+											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											In, quaerat.
+										</p>
+										<!-- Icons Container -->
+										<div
+											class="absolute flex space-x-8 text-gega-grey opacity-0 group-hover:opacity-100 -bottom-2 duration-500">
+											<a href="#" class="film-icon"
+												><i class="fas fa-solid fa-play"></i
+											></a>
+											<a href="#" class="film-icon"
+												><i class="fas fa-solid fa-arrow-right"></i
+											></a>
+										</div>
+									</figcaption>
+								</figure>
+							</li>
+							<!-- Film Item 8  -->
+							<li class="hidden md:block md:basis-1/4 lg:hidden">
+								<!-- Movie Info Box -->
+								<figure class="group relative overflow-hidden rounded-md">
+									<!-- Movie Cover Image -->
+									<img
+										src="./images/mv2.jpg"
+										alt="into the wild movie "
+										class="group-hover:scale-110 group-hover:opacity-50 duration-500" />
+									<!-- Movie Details Container -->
+									<figcaption class="absolute px-6 bottom-8">
+										<h4>Into The Wild</h4>
+										<p
+											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											In, quaerat.
+										</p>
+										<!-- Icons Container -->
+										<div
+											class="absolute flex space-x-8 text-gega-grey opacity-0 group-hover:opacity-100 -bottom-2 duration-500">
+											<a href="#" class="movie-icon"
+												><i class="fas fa-solid fa-play"></i
+											></a>
+											<a href="#" class="movie-icon"
+												><i class="fas fa-solid fa-arrow-right"></i
+											></a>
+										</div>
+									</figcaption>
+								</figure>
+							</li>
 						</ul>
 					</article>
 					<!-- News Contents Part -->
-					<aside class="basis-1/3 mb-16">
+					<aside class="basis-1/3 pb-16">
 						<!-- News Contents Title -->
 						<h3 class="text-gega-grey mb-8">Hot News</h3>
 						<!-- News Contents Container -->
 						<div
 							aria-label="news list"
-							class="flex flex-col h-full justify-between space-y-4">
+							class="flex flex-col h-full justify-between space-y-4 pr-4">
 							<a class="flex items-center group">
 								<!-- Sidebar Item Thumbnail -->
 								<figure class="basis-1/3 h-full">
 									<img
 										src="./images/news1.jpg"
 										alt=""
-										class="h-full w-full object-cover rounded-md" />
+										class="h-full w-full object-cover rounded-md hover:scale-105 transition duration-300" />
 								</figure>
 								<!-- Sidebar Item Details -->
 								<article
@@ -420,8 +481,7 @@
 									<img
 										src="./images/news2.jpg"
 										alt=""
-										class="h-full w-full object-cover rounded-md" />
-									/>
+										class="h-full w-full object-cover rounded-md hover:scale-105 transition duration-300" />
 								</figure>
 								<!-- Sidebar Item Details -->
 								<article
@@ -442,8 +502,7 @@
 									<img
 										src="./images/news3.jpg"
 										alt=""
-										class="h-full w-full object-cover rounded-md" />
-									/>
+										class="h-full w-full object-cover rounded-md hover:scale-105 transition duration-300" />
 								</figure>
 								<!-- Sidebar Item Details -->
 								<article
@@ -464,7 +523,7 @@
 									<img
 										src="./images/news4.jpg"
 										alt=""
-										class="h-full w-full object-cover rounded-md" />
+										class="h-full w-full object-cover rounded-md hover:scale-105 transition duration-300" />
 								</figure>
 								<!-- Sidebar Item Details -->
 								<article
@@ -485,7 +544,7 @@
 									<img
 										src="./images/news5.jpg"
 										alt=""
-										class="h-full w-full object-cover rounded-md" />
+										class="h-full w-full object-cover rounded-md hover:scale-105 transition duration-300" />
 								</figure>
 								<!-- Sidebar Item Details -->
 								<article
