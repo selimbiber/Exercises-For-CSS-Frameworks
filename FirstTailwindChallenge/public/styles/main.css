@@ -645,6 +645,10 @@ figure {
   left: 2.5rem;
 }
 
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -654,28 +658,16 @@ figure {
   margin-left: -1rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-8 {
   margin-bottom: 2rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -684,6 +676,10 @@ figure {
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .contents {
@@ -698,8 +694,12 @@ figure {
   height: 0.25rem;
 }
 
-.h-24 {
-  height: 6rem;
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-20 {
+  height: 5rem;
 }
 
 .h-3 {
@@ -718,20 +718,16 @@ figure {
   height: 100%;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.h-20 {
-  height: 5rem;
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-2\/3 {
   width: 66.666667%;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .w-24 {
@@ -740,6 +736,10 @@ figure {
 
 .w-3 {
   width: 0.75rem;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .w-6 {
@@ -754,28 +754,8 @@ figure {
   width: 100%;
 }
 
-.w-12 {
-  width: 3rem;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.basis-1\/2 {
-  flex-basis: 50%;
 }
 
 .basis-1\/3 {
@@ -795,6 +775,10 @@ figure {
   cursor: pointer;
 }
 
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -807,12 +791,20 @@ figure {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -888,12 +880,20 @@ figure {
   border-radius: 0.375rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
 
 .border-r {
   border-right-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
 }
 
 .border-gega-red {
@@ -968,6 +968,10 @@ figure {
      object-fit: cover;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1019,20 +1023,12 @@ figure {
   padding-left: 1rem;
 }
 
-.pl-6 {
-  padding-left: 1.5rem;
-}
-
 .pl-8 {
   padding-left: 2rem;
 }
 
 .pr-4 {
   padding-right: 1rem;
-}
-
-.pr-6 {
-  padding-right: 1.5rem;
 }
 
 .text-center {
@@ -1083,6 +1079,11 @@ figure {
   letter-spacing: 0.05em;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-gega-grey {
   --tw-text-opacity: 1;
   color: rgb(221 221 221 / var(--tw-text-opacity));
@@ -1100,11 +1101,6 @@ figure {
 
 .text-transparent {
   color: transparent;
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .opacity-0 {
@@ -1134,6 +1130,11 @@ figure {
 .before\:hidden::before {
   content: var(--tw-content);
   display: none;
+}
+
+.before\:bg-transparent::before {
+  content: var(--tw-content);
+  background-color: transparent;
 }
 
 .hover\:scale-105:hover {
@@ -1217,7 +1218,21 @@ figure {
   opacity: 0.5;
 }
 
+@media (min-width: 640px) {
+  .sm\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1230,6 +1245,10 @@ figure {
     display: none;
   }
 
+  .md\:h-24 {
+    height: 6rem;
+  }
+
   .md\:h-4 {
     height: 1rem;
   }
@@ -1238,12 +1257,12 @@ figure {
     height: 2rem;
   }
 
-  .md\:h-24 {
-    height: 6rem;
-  }
-
   .md\:w-2\/4 {
     width: 50%;
+  }
+
+  .md\:w-24 {
+    width: 6rem;
   }
 
   .md\:w-4 {
@@ -1254,16 +1273,12 @@ figure {
     width: 2rem;
   }
 
-  .md\:w-24 {
-    width: 6rem;
+  .md\:basis-1\/3 {
+    flex-basis: 33.333333%;
   }
 
   .md\:basis-1\/4 {
     flex-basis: 25%;
-  }
-
-  .md\:basis-1\/3 {
-    flex-basis: 33.333333%;
   }
 
   .md\:basis-2\/3 {
@@ -1285,12 +1300,16 @@ figure {
     position: absolute;
   }
 
+  .lg\:bottom-0 {
+    bottom: 0px;
+  }
+
   .lg\:left-0 {
     left: 0px;
   }
 
-  .lg\:bottom-0 {
-    bottom: 0px;
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
   }
 
   .lg\:hidden {
@@ -1309,12 +1328,12 @@ figure {
     width: 100%;
   }
 
-  .lg\:basis-1\/3 {
-    flex-basis: 33.333333%;
-  }
-
   .lg\:basis-1\/2 {
     flex-basis: 50%;
+  }
+
+  .lg\:basis-1\/3 {
+    flex-basis: 33.333333%;
   }
 
   .lg\:flex-row {
