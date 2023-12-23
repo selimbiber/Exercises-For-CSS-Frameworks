@@ -4,6 +4,6 @@
 
 With this exercise, I am learning the basics of Tailwind CSS and preparing for my next Tailwind challenges.
 
-### [Preview Link for Original Project](https://github.com/ArinSoftware/gega-project)
+### [Preview Link for Original Project](https://htmlpreview.github.io/?https://github.com/ArinSoftware/gega-project/blob/main/public/index.html)
 
 ### [Preview Link for My Project](https://htmlpreview.github.io/?https://github.com/selimbiber/Tailwind-Challenges/blob/main/FirstTailwindChallenge/public/index.html)
