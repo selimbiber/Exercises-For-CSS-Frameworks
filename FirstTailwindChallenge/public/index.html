@@ -26,8 +26,10 @@
 	</head>
 	<body id="page" class="font-open dark">
 		<!-- Dark/Light Toggle Btn -->
-		<div class="absolute top-1 left-5 cursor-pointer text-lg">
-			<i id="sun" class="fa-solid fa-sun text-white"></i>
+		<div class="absolute top-10 right-5 cursor-pointer text-lg hidden lg:block">
+			<i
+				id="sun"
+				class="fa-solid fa-sun text-white hover:text-gega-melon transition-colors duration-300"></i>
 			<i id="moon" class="fa-solid fa-moon text-black hidden"></i>
 		</div>
 		<!-- HEADER SECTION -->
@@ -48,11 +50,11 @@
 				<div class="block md:hidden" title="click for open navigation menu ">
 					<div class="space-y-1 cursor-pointer group">
 						<div
-							class="bg-gega-grey w-8 h-1 rounded-full group-hover:bg-gega-red transition duration-300"></div>
+							class="bg-black dark:bg-gega-grey w-8 h-1 rounded-full group-hover:bg-gega-red transition duration-300"></div>
 						<div
-							class="bg-gega-grey w-8 h-1 rounded-full group-hover:bg-gega-red transition duration-300"></div>
+							class="bg-black dark:bg-gega-grey w-8 h-1 rounded-full group-hover:bg-gega-red transition duration-300"></div>
 						<div
-							class="bg-gega-grey w-8 h-1 rounded-full group-hover:bg-gega-red transition duration-300"></div>
+							class="bg-black dark:bg-gega-grey w-8 h-1 rounded-full group-hover:bg-gega-red transition duration-300"></div>
 					</div>
 				</div>
 				<!-- Header Navigation -->
@@ -190,20 +192,22 @@
 				</article>
 			</section>
 			<!-- Contents Subsection -->
-			<section aria-label="contents" class="py-24 pl-4 bg-black">
+			<section aria-label="contents" class="py-24 px-4 bg-white dark:bg-black">
 				<!-- Contents Container -->
 				<div
-					class="container flex flex-col lg:flex-row lg:space-x-16 space-y-8">
+					class="container flex flex-col lg:flex-row lg:space-x-16 lg:space-y-0">
 					<!-- Movies Contents Part -->
-					<article class="basis-2/3 pr-4 lg:pr-0">
+					<article class="basis-2/3">
 						<!-- Content Left Part Titles -->
 						<header
-							class="flex space-x-2 divide-x divide-gega-red divide-opacity-50 mb-8 pl-10 lg:pl-0">
+							class="flex space-x-2 divide-x divide-gega-red divide-opacity-50 mb-8">
 							<h3 class="text-gega-red">Latest</h3>
-							<h3 class="text-gega-grey pl-2 hover:text-gega-red duration-500">
+							<h3
+								class="text-black dark:text-gega-grey pl-2 hover:text-gega-red duration-500">
 								Popular
 							</h3>
-							<h3 class="text-gega-grey pl-2 hover:text-gega-red duration-500">
+							<h3
+								class="text-black dark:text-gega-grey pl-2 hover:text-gega-red duration-500">
 								Best
 							</h3>
 						</header>
@@ -222,7 +226,7 @@
 									<figcaption class="absolute px-6 bottom-8">
 										<h4>Oblivion</h4>
 										<p
-											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											class="text-sm text-black dark:text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											In, quaerat.
 										</p>
@@ -252,7 +256,7 @@
 									<figcaption class="absolute px-6 bottom-8">
 										<h4>Into The Wild</h4>
 										<p
-											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											class="text-sm text-black dark:text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											In, quaerat.
 										</p>
@@ -282,7 +286,7 @@
 									<figcaption class="absolute px-6 bottom-8">
 										<h4>2049</h4>
 										<p
-											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											class="text-sm text-black dark:text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											In, quaerat.
 										</p>
@@ -312,7 +316,7 @@
 									<figcaption class="absolute px-6 bottom-8">
 										<h4>Oblivion</h4>
 										<p
-											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											class="text-sm text-black dark:text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											In, quaerat.
 										</p>
@@ -342,7 +346,7 @@
 									<figcaption class="absolute px-6 bottom-8">
 										<h4>Into The Wild</h4>
 										<p
-											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											class="text-sm text-black dark:text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											In, quaerat.
 										</p>
@@ -372,7 +376,7 @@
 									<figcaption class="absolute px-6 bottom-8">
 										<h4>2049</h4>
 										<p
-											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											class="text-sm text-black dark:text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											In, quaerat.
 										</p>
@@ -402,7 +406,7 @@
 									<figcaption class="absolute px-6 bottom-8">
 										<h4>Oblivion</h4>
 										<p
-											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											class="text-sm text-black dark:text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											In, quaerat.
 										</p>
@@ -432,7 +436,7 @@
 									<figcaption class="absolute px-6 bottom-8">
 										<h4>Into The Wild</h4>
 										<p
-											class="text-sm text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
+											class="text-sm text-black dark:text-gega-grey text-md opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500">
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											In, quaerat.
 										</p>
@@ -452,14 +456,15 @@
 						</ul>
 					</article>
 					<!-- News Contents Part -->
-					<aside class="basis-1/3 pb-16">
+					<aside class="basis-1/3 mt-16 lg:mt-0">
 						<!-- News Contents Title -->
-						<h3 class="text-gega-grey mb-8">Hot News</h3>
+						<!--  -->
+						<h3 class="text-black dark:text-gega-grey mb-8">Hot News</h3>
 						<!-- News Contents Container -->
 						<div
 							aria-label="news list"
-							class="flex flex-col h-full justify-between space-y-4 pr-4">
-							<a class="flex items-center group">
+							class="flex flex-col h-full justify-between pb-16">
+							<a class="flex items-center">
 								<!-- Sidebar Item Thumbnail -->
 								<figure class="basis-1/3 h-full">
 									<img
@@ -468,19 +473,18 @@
 										class="h-full w-full object-cover rounded-md hover:scale-105 transition duration-300" />
 								</figure>
 								<!-- Sidebar Item Details -->
-								<article
-									class="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon">
-									<p class="text-sm">
+								<article class="pl-8 basis-2/3 text-gega-grey">
+									<p class="text-black dark:text-gega-grey text-sm">
 										Lorem ipsum dolor sit amet consectetur adipisicing elit.
 										Fugiat, doloribus!
 									</p>
 									<p
-										class="text-xs tracking-tighter mt-2 font-bold font-gemunu">
+										class="text-black dark:text-gega-grey text-xs tracking-tighter mt-2 font-bold font-gemunu">
 										ON DEC 18 2023
 									</p>
 								</article>
 							</a>
-							<a class="flex items-center group">
+							<a class="flex items-center mt-10 lg:mt-0">
 								<!-- Sidebar Item Thumbnail -->
 								<figure class="basis-1/3 h-full">
 									<img
@@ -489,19 +493,18 @@
 										class="h-full w-full object-cover rounded-md hover:scale-105 transition duration-300" />
 								</figure>
 								<!-- Sidebar Item Details -->
-								<article
-									class="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon">
-									<p class="text-sm">
+								<article class="pl-8 basis-2/3 text-gega-grey">
+									<p class="text-black dark:text-gega-grey text-sm">
 										Lorem ipsum dolor sit amet consectetur adipisicing elit.
 										Fugiat, doloribus!
 									</p>
 									<p
-										class="text-xs tracking-tighter mt-2 font-bold font-gemunu">
+										class="text-black dark:text-gega-grey text-xs tracking-tighter mt-2 font-bold font-gemunu">
 										ON DEC 18 2023
 									</p>
 								</article>
 							</a>
-							<a class="flex items-center group">
+							<a class="flex items-center mt-10 lg:mt-0">
 								<!-- Sidebar Item Thumbnail -->
 								<figure class="basis-1/3 h-full">
 									<img
@@ -510,19 +513,18 @@
 										class="h-full w-full object-cover rounded-md hover:scale-105 transition duration-300" />
 								</figure>
 								<!-- Sidebar Item Details -->
-								<article
-									class="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon">
-									<p class="text-sm">
+								<article class="pl-8 basis-2/3 text-gega-grey">
+									<p class="text-black dark:text-gega-grey text-sm">
 										Lorem ipsum dolor sit amet consectetur adipisicing elit.
 										Fugiat, doloribus!
 									</p>
 									<p
-										class="text-xs tracking-tighter mt-2 font-bold font-gemunu">
+										class="text-black dark:text-gega-grey text-xs tracking-tighter mt-2 font-bold font-gemunu">
 										ON DEC 18 2023
 									</p>
 								</article>
 							</a>
-							<a class="flex items-center group">
+							<a class="flex items-center mt-10 lg:mt-0">
 								<!-- Sidebar Item Thumbnail -->
 								<figure class="basis-1/3 h-full">
 									<img
@@ -531,19 +533,18 @@
 										class="h-full w-full object-cover rounded-md hover:scale-105 transition duration-300" />
 								</figure>
 								<!-- Sidebar Item Details -->
-								<article
-									class="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon">
-									<p class="text-sm">
+								<article class="pl-8 basis-2/3 text-gega-grey">
+									<p class="text-black dark:text-gega-grey text-sm">
 										Lorem ipsum dolor sit amet consectetur adipisicing elit.
 										Fugiat, doloribus!
 									</p>
 									<p
-										class="text-xs tracking-tighter mt-2 font-bold font-gemunu">
+										class="text-black dark:text-gega-grey text-xs tracking-tighter mt-2 font-bold font-gemunu">
 										ON DEC 18 2023
 									</p>
 								</article>
 							</a>
-							<a class="flex items-center group">
+							<a class="flex items-center mt-10 lg:mt-0">
 								<!-- Sidebar Item Thumbnail -->
 								<figure class="basis-1/3 h-full">
 									<img
@@ -552,14 +553,13 @@
 										class="h-full w-full object-cover rounded-md hover:scale-105 transition duration-300" />
 								</figure>
 								<!-- Sidebar Item Details -->
-								<article
-									class="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon">
-									<p class="text-sm">
+								<article class="pl-8 basis-2/3 text-gega-grey">
+									<p class="text-black dark:text-gega-grey text-sm">
 										Lorem ipsum dolor sit amet consectetur adipisicing elit.
 										Fugiat, doloribus!
 									</p>
 									<p
-										class="text-xs tracking-tighter mt-2 font-bold font-gemunu">
+										class="text-black dark:text-gega-grey text-xs tracking-tighter mt-2 font-bold font-gemunu">
 										ON DEC 18 2023
 									</p>
 								</article>
@@ -569,7 +569,7 @@
 				</div>
 			</section>
 			<!-- Matrix Subsection -->
-			<section aria-label="matrix" class="bg-gega-white pl-4">
+			<section aria-label="matrix" class="bg-black dark:bg-gega-white pl-4">
 				<!-- Matrix Subsection Container -->
 				<div class="container flex items-center justify-center relative">
 					<!-- Matrix Subsection Left Part -->
@@ -587,11 +587,13 @@
 								<h3 class="tracking-wider text-gega-melon">
 									Action, Drama, Thriller
 								</h3>
-								<h4 class="text-4xl before:hidden text-black">
+								<h4
+									class="text-4xl before:hidden text-gega-white dark:text-black">
 									Matrix Reloaded
 								</h4>
 							</header>
-							<p class="text-sm mt-2 mb-2 w-2/3">
+							<p
+								class="text-sm mt-2 mb-2 w-2/3 text-gega-white dark:text-black">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
 								pariatur reprehenderit explicabo amet mollitia, debitis
 								laboriosam quidem quaerat soluta saepe?
@@ -610,7 +612,9 @@
 				</div>
 			</section>
 			<!-- Blog Subsection -->
-			<section aria-label="blog" class="py-24 bg-black text-gega-grey">
+			<section
+				aria-label="blog"
+				class="py-24 dark:bg-black bg-gega-white text-gega-grey">
 				<!-- // Container -->
 				<div class="container px-4">
 					<!-- // Title -->
@@ -621,13 +625,16 @@
 						<li class="col-span-6 md:col-span-3 border border-gega-red">
 							<header
 								class="border-b border-gega-red p-4 flex items-center justify-between">
-								<h4 class="before:bg-transparent">Lorem, ipsum dolor.</h4>
+								<h4
+									class="before:bg-transparent text-black dark:text-gega-grey">
+									Lorem, ipsum dolor.
+								</h4>
 								<img
 									src="./images/useravatar1.webp"
 									alt="user avatar"
 									class="w-10 h-10 hover:scale-105 cursor-pointer rounded-full" />
 							</header>
-							<p class="p-4 text-sm">
+							<p class="p-4 text-sm text-black dark:text-gega-grey">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
 								fugit quod voluptate ab officia? Voluptas dicta est odit
 								pariatur voluptatum odio culpa, earum aut natus veritatis ut
@@ -635,12 +642,12 @@
 							</p>
 							<footer
 								class="border-t border-gega-red p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xs">
-								<p>ON DEC 20, 2023</p>
+								<p class="text-black dark:text-gega-grey">ON DEC 20, 2023</p>
 								<div class="flex items-center justify-center space-x-2">
 									<i class="fa-regular fa-comment"></i>
-									<p>12</p>
+									<p class="text-black dark:text-gega-grey">12</p>
 									<i class="fa-regular fa-heart"></i>
-									<p>08</p>
+									<p class="text-black dark:text-gega-grey">08</p>
 								</div>
 							</footer>
 						</li>
@@ -648,13 +655,16 @@
 						<li class="col-span-6 md:col-span-3 border border-gega-red">
 							<header
 								class="border-b border-gega-red p-4 flex items-center justify-between">
-								<h4 class="before:bg-transparent">Lorem, ipsum dolor.</h4>
+								<h4
+									class="before:bg-transparent text-black dark:text-gega-grey">
+									Lorem, ipsum dolor.
+								</h4>
 								<img
 									src="./images/useravatar2.png"
 									alt="user avatar"
 									class="w-10 h-10 hover:scale-105 cursor-pointer rounded-full" />
 							</header>
-							<p class="p-4 text-sm">
+							<p class="p-4 text-sm text-black dark:text-gega-grey">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
 								fugit quod voluptate ab officia? Voluptas dicta est odit
 								pariatur voluptatum odio culpa, earum aut natus veritatis ut
@@ -662,12 +672,12 @@
 							</p>
 							<footer
 								class="border-t border-gega-red p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xs">
-								<p>ON DEC 20, 2023</p>
+								<p class="text-black dark:text-gega-grey">ON DEC 20, 2023</p>
 								<div class="flex items-center justify-center space-x-2">
 									<i class="fa-regular fa-comment"></i>
-									<p>12</p>
+									<p class="text-black dark:text-gega-grey">12</p>
 									<i class="fa-regular fa-heart"></i>
-									<p>08</p>
+									<p class="text-black dark:text-gega-grey">08</p>
 								</div>
 							</footer>
 						</li>
@@ -675,13 +685,16 @@
 						<li class="col-span-6 md:col-span-3 border border-gega-red">
 							<header
 								class="border-b border-gega-red p-4 flex items-center justify-between">
-								<h4 class="before:bg-transparent">Lorem, ipsum dolor.</h4>
+								<h4
+									class="before:bg-transparent text-black dark:text-gega-grey">
+									Lorem, ipsum dolor.
+								</h4>
 								<img
 									src="./images/useravatar3.jpg"
 									alt="user avatar"
 									class="w-10 h-10 hover:scale-105 cursor-pointer rounded-full" />
 							</header>
-							<p class="p-4 text-sm">
+							<p class="p-4 text-sm text-black dark:text-gega-grey">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
 								fugit quod voluptate ab officia? Voluptas dicta est odit
 								pariatur voluptatum odio culpa, earum aut natus veritatis ut
@@ -689,12 +702,12 @@
 							</p>
 							<footer
 								class="border-t border-gega-red p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xs">
-								<p>ON DEC 20, 2023</p>
+								<p class="text-black dark:text-gega-grey">ON DEC 20, 2023</p>
 								<div class="flex items-center justify-center space-x-2">
 									<i class="fa-regular fa-comment"></i>
-									<p>12</p>
+									<p class="text-black dark:text-gega-grey">12</p>
 									<i class="fa-regular fa-heart"></i>
-									<p>08</p>
+									<p class="text-black dark:text-gega-grey">08</p>
 								</div>
 							</footer>
 						</li>
@@ -702,13 +715,16 @@
 						<li class="col-span-6 md:col-span-3 border border-gega-red">
 							<header
 								class="border-b border-gega-red p-4 flex items-center justify-between">
-								<h4 class="before:bg-transparent">Lorem, ipsum dolor.</h4>
+								<h4
+									class="before:bg-transparent text-black dark:text-gega-grey">
+									Lorem, ipsum dolor.
+								</h4>
 								<img
 									src="./images/useravatar4.jpg"
 									alt="user avatar"
 									class="w-10 h-10 hover:scale-105 cursor-pointer rounded-full" />
 							</header>
-							<p class="p-4 text-sm">
+							<p class="p-4 text-sm text-black dark:text-gega-grey">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
 								fugit quod voluptate ab officia? Voluptas dicta est odit
 								pariatur voluptatum odio culpa, earum aut natus veritatis ut
@@ -716,12 +732,12 @@
 							</p>
 							<footer
 								class="border-t border-gega-red p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xs">
-								<p>ON DEC 20, 2023</p>
+								<p class="text-black dark:text-gega-grey">ON DEC 20, 2023</p>
 								<div class="flex items-center justify-center space-x-2">
 									<i class="fa-regular fa-comment"></i>
-									<p>12</p>
+									<p class="text-black dark:text-gega-grey">12</p>
 									<i class="fa-regular fa-heart"></i>
-									<p>08</p>
+									<p class="text-black dark:text-gega-grey">08</p>
 								</div>
 							</footer>
 						</li>
@@ -730,7 +746,7 @@
 			</section>
 		</main>
 		<!-- FOOTER SECTION -->
-		<footer class="bg-black text-gega-grey">
+		<footer class="bg-gega-white dark:bg-black text-gega-grey">
 			<!-- // Container -->
 			<div class="container flex flex-col md:flex-row px-4 pb-8">
 				<!-- // Left Side -->
@@ -740,25 +756,32 @@
 						class="text-2l lg:text-3xl font-bold text-transparent bg-gradient-to-t bg-clip-text from-gega-red to-gega-grey"
 						>GEGA</a
 					>
-					<p class="text-sm mt-2">2023 ArinSoftware - No CopyRight</p>
+					<p class="text-sm mt-2 text-black dark:text-gega-grey">
+						2023 ArinSoftware - No Copyright
+					</p>
 				</article>
 				<!-- // Mid Side -->
 				<div class="basis-1/3">
 					<h3 class="bg-transparent mb-2 text-gega-red">Links</h3>
 					<ul class="grid grid-cols-5 gap-2 uppercase">
-						<li class="col-span-2 hover:text-gega-melon duration-500">
+						<li
+							class="col-span-2 text-black dark:text-gega-grey hover:text-gega-melon duration-500">
 							<a href="#">Movies</a>
 						</li>
-						<li class="col-span-2 hover:text-gega-melon duration-500">
+						<li
+							class="col-span-2 text-black dark:text-gega-grey hover:text-gega-melon duration-500">
 							<a href="#">Celebrities</a>
 						</li>
-						<li class="col-span-2 hover:text-gega-melon duration-500">
+						<li
+							class="col-span-2 text-black dark:text-gega-grey hover:text-gega-melon duration-500">
 							<a href="#">Blog</a>
 						</li>
-						<li class="col-span-2 hover:text-gega-melon duration-500">
+						<li
+							class="col-span-2 text-black dark:text-gega-grey hover:text-gega-melon duration-500">
 							<a href="#">News</a>
 						</li>
-						<li class="col-span-2 hover:text-gega-melon duration-500">
+						<li
+							class="col-span-2 text-black dark:text-gega-grey hover:text-gega-melon duration-500">
 							<a href="#">About</a>
 						</li>
 					</ul>
@@ -768,11 +791,11 @@
 					<h3 class="bg-transparent mb-2 text-gega-red">FOLLOW US</h3>
 					<form action="" class="flex">
 						<input
-							class="py-1 px-2 bg-transparent border border-gega-red placeholder:text-xs outline-none"
+							class="py-1 px-2 bg-transparent border border-gega-red placeholder:text-xs placeholder:text-black dark:placeholder:text-gega-grey outline-none"
 							placeholder="Type your e-mail"
 							type="text" />
 						<button
-							class="py-1 px-2 bg-transparent border border-gega-red bg-gega-red font-gemunu uppercase hover:bg-gega-melon duration-300 hover:text-gega-red"
+							class="py-1 px-2 bg-transparent border border-gega-red bg-gega-red font-gemunu uppercase text-black dark:text-gega-grey hover:bg-gega-melon dark:hover:text-black duration-300"
 							type="submit">
 							Subscribe
 						</button>
