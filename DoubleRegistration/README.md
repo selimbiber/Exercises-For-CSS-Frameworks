@@ -2,6 +2,6 @@
 
 ## Original Design Preview
 
-## My Design Preview
+![double_registration](https://github.com/selimbiber/Tailwind-CSS-Challenges/assets/117529414/29fb4cf3-7d03-4493-aead-af1bae47c5d2)
 
-### [Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/Tailwind-CSS-Challenges/blob/main/DoubleRegistration/index.html)
+## My Design Preview
