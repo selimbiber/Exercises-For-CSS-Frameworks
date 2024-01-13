@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="https://pbs.twimg.com/profile_images/1633847644966772737/m8yU9m0A_400x400.jpg"
+			type="image/x-icon" />
+		<link rel="stylesheet" href="./output.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>iCodeThis | Language Learn</title>
+	</head>
+	<body class="bg-[#171C3E]">
+		<main
+			class="bg-[#20264f] w-full h-full flex flex-col gap-y-8 py-32 justify-center items-center">
+			<section
+				aria-label="select a tier"
+				class="bg-white w-80 h-[21rem] rounded-lg px-6 py-8 flex flex-col">
+				<h1 class="font-bold text-lg mb-2">Select a tier</h1>
+				<article
+					class="flex flex-row justify-between hover:bg-[#EBEDF9] transition duration-150 rounded-md p-4 md:p-6 gap-x-4">
+					<div class="flex flex-col gap-y-1 w-8/12">
+						<h2 class="font-bold">$5/month</h2>
+						<p>A significant contribution</p>
+					</div>
+					<button
+						type="button"
+						class="flex self-end justify-center items-center border border-[#ED7255] rounded-xl h-12 w-24 font-bold bg-gradient-to-r from-[#ED7255] to-[#FF9838] text-white hover:bg-gradient-to-t">
+						Select
+					</button>
+				</article>
+				<article
+					class="flex flex-row justify-between hover:bg-[#EBEDF9] transition duration-150 rounded-md p-4 md:p-6 gap-x-4">
+					<div class="flex flex-col gap-y-1 w-8/12">
+						<h2 class="font-bold">$30/month</h2>
+						<p>A huge contribution</p>
+					</div>
+					<button
+						type="button"
+						class="flex self-end justify-center items-center border rounded-xl border-[#ED7255] h-12 w-24 font-bold text-black hover:bg-gradient-to-r from-[#ED7255] to-[#FF9838] hover:text-white transition-colors duration-200">
+						Select
+					</button>
+				</article>
+			</section>
+			<section
+				aria-label="question"
+				class="bg-white w-80 h-[30rem] rounded-lg pt-14 flex flex-col items-center gap-y-6">
+				<header class="flex flex-col gap-y-4">
+					<div class="bg-[#EBEDF8] w-44 h-1 mx-auto rounded-md">
+						<div class="bg-[#6F85FF] w-32 h-1 rounded-md"></div>
+					</div>
+					<h3 class="font-bold text-center mb-2">
+						Which of these is "You eat pasta" ?
+					</h3>
+				</header>
+				<ul class="flex flex-col gap-y-4 pr-3 h-52">
+					<li class="flex flex-row gap-x-3 items-center cursor-pointer">
+						<input
+							type="radio"
+							name="radio-btn"
+							id="option-1"
+							class="opacity-0 w-full fixed [&:checked+span]:bg-[#6F85FF]" /><span
+							aria-hidden="true"
+							class="text-sm h-6 w-6 border-2 border-gray-400 rounded-full"></span>
+						<label for="option-1" class="cursor-pointer"
+							>El caballo es pequeno</label
+						>
+					</li>
+					<li class="flex flex-row gap-x-3 items-center cursor-pointer">
+						<input
+							type="radio"
+							name="radio-btn"
+							id="option-2"
+							class="opacity-0 w-full fixed [&:checked+span]:bg-[#6F85FF]" /><span
+							aria-hidden="true"
+							class="text-sm h-6 w-6 border-2 border-gray-400 rounded-full"></span
+						><label for="option-2" class="cursor-pointer">Tu comes pasta</label>
+					</li>
+					<li class="flex flex-row gap-x-3 items-center cursor-pointer">
+						<input
+							type="radio"
+							name="radio-btn"
+							id="option-3"
+							class="opacity-0 w-full fixed [&:checked+span]:bg-[#6F85FF]" /><span
+							aria-hidden="true"
+							class="text-sm h-6 w-6 border-2 border-gray-400 rounded-full"></span
+						><label for="option-3" class="cursor-pointer">El come pan</label>
+					</li>
+				</ul>
+				<div class="flex flex-col justify-center items-center w-full">
+					<button
+						type="button"
+						class="flex justify-center items-center border-t border-gray-300 py-2 w-full text-sm text-gray-600 hover:font-bold">
+						Skip this question
+					</button>
+					<button
+						type="button"
+						class="flex justify-center items-center h-24 w-full font-bold bg-gradient-to-r from-[#ED7255] to-[#FF9838] rounded-b-lg text-white hover:bg-gradient-to-t">
+						Submit
+					</button>
+				</div>
+			</section>
+			<section
+				aria-label="continue"
+				class="bg-white w-80 h-80 rounded-lg px-6 py-8 flex flex-col justify-center items-center gap-y-6">
+				<svg>
+					<circle
+						cx="150"
+						cy="70"
+						r="60"
+						stroke="currentColor"
+						stroke-width="5"
+						fill="transparent"
+						class="text-[#d9e4e1]" />
+
+					<circle
+						cx="150"
+						cy="70"
+						r="60"
+						stroke="currentColor"
+						stroke-width="5"
+						fill="transparent"
+						stroke-dasharray="150"
+						stroke-dashoffset="10"
+						class="text-[#4F85FF]" />
+					<svg
+						version="1.1"
+						viewBox="-480 -500 1480 1480"
+						xml:space="preserve"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="m433.38 249.73c10.546 13.606 16.831 30.685 16.831 49.234 0 44.432-36.017 80.437-80.437 80.437h-227.54c-22.21 0-42.325-9.004-56.873-23.552-14.56-14.56-23.564-34.663-23.564-56.885 0-37.099 25.129-68.314 59.286-77.612-6.109-7.05-11.029-15.172-14.407-24.058-3.378-8.875-5.238-18.503-5.238-28.578 0-43.62 34.734-79.107 78.048-80.378v-0.059c0-42.255 34.263-76.506 76.518-76.506s76.506 34.251 76.506 76.506v0.059c21.657 0.636 41.172 9.828 55.272 24.305 14.101 14.489 22.787 34.263 22.787 56.073 0 20.139-7.415 38.535-19.644 52.636 17.078 4.649 31.897 14.783 42.455 28.378z"
+							fill="#B5E06C" />
+						<rect
+							x="223.03"
+							y="379.4"
+							width="65.924"
+							height="120.83"
+							fill="#6E5B3F" />
+						<path
+							d="m288.96 512h-65.924c-6.501 0-11.77-5.271-11.77-11.77v-120.83c0-6.499 5.269-11.77 11.77-11.77s11.77 5.271 11.77 11.77v109.06h42.384v-109.06c0-6.499 5.269-11.77 11.77-11.77s11.77 5.271 11.77 11.77v120.83c0 6.499-5.269 11.77-11.77 11.77z" />
+						<path
+							d="m390.06 126.84c-3.227 0-6.441-1.319-8.765-3.91-0.634-0.707-1.282-1.402-1.944-2.082-4.536-4.657-4.437-12.109 0.22-16.645 4.657-4.534 12.109-4.437 16.644 0.22 0.886 0.911 1.755 1.841 2.604 2.787 4.341 4.839 3.937 12.281-0.902 16.621-2.25 2.016-5.059 3.009-7.857 3.009z" />
+						<path
+							d="m369.77 391.17h-227.54c-24.632 0-47.785-9.588-65.196-26.998-17.419-17.419-27.011-40.577-27.011-65.209 0-35.917 20.941-68.156 52.528-83.238-2.698-4.536-4.998-9.296-6.88-14.249-3.984-10.468-6.006-21.492-6.006-32.761 0-24.15 9.275-46.977 26.117-64.279 14.268-14.657 32.643-24.005 52.59-26.923 5.348-43.641 42.607-77.511 87.628-77.511 45.034 0 82.298 33.893 87.623 77.511 7.971 1.169 15.724 3.376 23.157 6.598 5.964 2.586 8.702 9.517 6.116 15.481-2.586 5.963-9.515 8.702-15.481 6.116-7.988-3.464-16.484-5.351-25.254-5.608-6.363-0.187-11.425-5.4-11.425-11.765 0-35.754-29.04-64.794-64.736-64.794-35.702 0-64.747 29.04-64.747 64.736 0 6.365-5.061 11.637-11.425 11.824-37.358 1.097-66.624 31.234-66.624 68.613 0 8.398 1.503 16.603 4.467 24.391 2.85 7.496 6.989 14.404 12.302 20.536 2.651 3.059 3.544 7.265 2.365 11.136-1.178 3.871-4.263 6.867-8.167 7.928-29.795 8.115-50.606 35.36-50.606 66.259 0 18.344 7.144 35.589 20.116 48.562 12.964 12.965 30.206 20.105 48.551 20.105h227.54c37.863 0 68.667-30.804 68.667-68.667 0-15.368-4.967-29.9-14.364-42.024-9.122-11.744-21.996-20.353-36.244-24.232-3.905-1.063-6.99-4.058-8.168-7.931-1.177-3.874-0.282-8.079 2.369-11.137 10.812-12.466 16.765-28.42 16.765-44.924 0-8.34-1.477-16.485-4.389-24.206-2.294-6.083 0.777-12.873 6.86-15.167 6.079-2.295 12.873 0.777 15.166 6.858 3.918 10.387 5.904 21.326 5.904 32.515 0 16.649-4.512 32.881-12.908 47.024 12.915 6.189 24.398 15.379 33.245 26.77 12.633 16.299 19.305 35.818 19.305 56.454-3e-3 50.841-41.367 92.206-92.21 92.206z" />
+					</svg>
+				</svg>
+				<h4 class="text-xl font-bold">Nature</h4>
+				<button
+					type="button"
+					class="flex justify-center items-center border rounded-xl border-[#ED7255] h-12 w-8/12 font-bold text-black hover:bg-gradient-to-r from-[#ED7255] to-[#FF9838] hover:text-white transition-colors duration-200">
+					Continue
+				</button>
+			</section>
+		</main>
+		<script>
+			document.getElementById('option-1').checked = false;
+		</script>
+	</body>
+</html>
