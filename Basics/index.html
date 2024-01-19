@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://pbs.twimg.com/profile_images/1633847644966772737/m8yU9m0A_400x400.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Basics | iCodeThis</title>
+  </head>
+  <body class="min-h-screen bg-[#E9DFFF] grid place-items-center">
+    <main class="h-full bg-white shadow-2xl shadow-[#8e85a1] w-5/6 lg:w-3/4">
+      <div class="w-[80%] lg:w-[50%] p-10 m-auto flex flex-col gap-y-10">
+        <section aria-label="typography" class="flex flex-col gap-y-6">
+          <p
+            class="uppercase font-bold text-lg bg-[#D9D9D9] w-36 text-center rounded shadow-md shadow-gray-400"
+          >
+            typography
+          </p>
+          <ul class="flex flex-col gap-y-5">
+            <li>
+              <p class="font-bold">Make me bold</p>
+              <p class="italic">Make me italic</p>
+            </li>
+            <li>
+              <p class="font-['Arial']">I'm from the Arial font family!</p>
+              <p class="font-['Times_New_Roman']">
+                And I'm from the Times New Roman font family!
+              </p>
+            </li>
+            <li>
+              <p class="underline">Make this text be underlined</p>
+              <p class="line-through">And put a line through this one</p>
+            </li>
+          </ul>
+        </section>
+        <section aria-label="headings" class="flex flex-col gap-y-6">
+          <p
+            class="uppercase font-bold text-lg bg-[#D9D9D9] w-32 text-center rounded shadow-md shadow-gray-400"
+          >
+            headings
+          </p>
+          <header class="flex flex-col gap-y-5">
+            <h1 class="font-bold text-4xl">
+              This is a <code>&lt;h1&gt;</code> tag
+            </h1>
+            <h2 class="font-bold text-3xl">
+              This is a <code>&lt;h2&gt;</code> tag
+            </h2>
+            <h3 class="font-bold text-2xl">
+              This is a <code>&lt;h3&gt;</code> tag
+            </h3>
+          </header>
+        </section>
+        <section aria-label="colors" class="flex flex-col gap-y-6">
+          <p
+            class="uppercase font-bold text-lg bg-[#D9D9D9] w-28 text-center rounded shadow-md shadow-gray-400"
+          >
+            colors
+          </p>
+          <ul class="flex flex-col gap-y-5">
+            <li>
+              <p class="text-[#EE5531] font-semibold">Color me orange!</p>
+              <div class="mt-4 bg-[#EE5531] w-24 h-24"></div>
+            </li>
+            <li>
+              <p class="text-[#4621AB] font-semibold">Color me purple!</p>
+              <div class="mt-4 bg-[#4621AB] w-24 h-24 rounded-full"></div>
+            </li>
+          </ul>
+        </section>
+        <section aria-label="buttons" class="flex flex-col gap-y-6">
+          <p
+            class="uppercase font-bold text-lg bg-[#D9D9D9] w-28 text-center rounded shadow-md shadow-gray-400"
+          >
+            buttons
+          </p>
+          <ul class="flex flex-col gap-y-5">
+            <li>
+              <p class="font-bold">Default</p>
+              <button class="bg-[#4621AB] font-semibold text-white py-2 w-36">
+                Button
+              </button>
+            </li>
+            <li>
+              <p class="font-bold">Hovered</p>
+              <button class="bg-[#4621aba8] font-semibold text-white py-2 w-36">
+                Button
+              </button>
+            </li>
+            <li>
+              <p class="font-bold">Active</p>
+              <button class="bg-[#4621ab48] font-semibold py-2 w-36">
+                Button
+              </button>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
