@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://pbs.twimg.com/profile_images/1633847644966772737/m8yU9m0A_400x400.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Restaurant UI Kit | iCodeThis</title>
+  </head>
+  <body class="bg-[#F6F6F6] min-h-screen grid place-items-center p-4">
+    <main class="h-full flex flex-col justify-center items-center gap-y-4">
+      <section
+        aria-label="restaurants"
+        class="bg-[#202125] w-[28rem] px-7 py-5 flex flex-col justify-center gap-y-8 rounded-md"
+      >
+        <h1 class="text-white font-bold text-2xl">Restaurants</h1>
+        <div
+          class="bg-white flex flex-row justify-center items-center gap-x-4 p-4 rounded-lg"
+        >
+          <img
+            src="https://www.tutorialspoint.com/food_and_beverage_services/images/plate_service.jpg"
+            class="w-1/3 h-full rounded shadow-lg shadow-gray-400"
+            alt=""
+          />
+          <article class="flex flex-col gap-y-3 py-3">
+            <header class="flex flex-row gap-x-6">
+              <h2 class="font-semibold text-lg">Clarchens Ballhaus</h2>
+              <div class="flex flex-row gap-x-2 items-center">
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  version="1.1"
+                  viewBox="0 0 47.94 47.94"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m26.285 2.486 5.407 10.956c0.376 0.762 1.103 1.29 1.944 1.412l12.091 1.757c2.118 0.308 2.963 2.91 1.431 4.403l-8.749 8.528c-0.608 0.593-0.886 1.448-0.742 2.285l2.065 12.042c0.362 2.109-1.852 3.717-3.746 2.722l-10.814-5.685c-0.752-0.395-1.651-0.395-2.403 0l-10.814 5.685c-1.894 0.996-4.108-0.613-3.746-2.722l2.065-12.042c0.144-0.837-0.134-1.692-0.742-2.285l-8.749-8.528c-1.532-1.494-0.687-4.096 1.431-4.403l12.091-1.757c0.841-0.122 1.568-0.65 1.944-1.412l5.407-10.956c0.946-1.919 3.682-1.919 4.629 0z"
+                    fill="#8E9EEC"
+                  />
+                </svg>
+                <p aria-label="4.5 star">4.5</p>
+              </div>
+            </header>
+            <div class="flex flex-row gap-x-1">
+              <svg
+                class="w-5 h-5"
+                enable-background="new 0 0 64 64"
+                version="1.0"
+                viewBox="0 0 64 64"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289l16,24 C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289C54.289,34.008,56,29.219,56,24 C56,10.746,45.254,0,32,0z M32,32c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S36.418,32,32,32z"
+                  fill="#FFB206"
+                />
+              </svg>
+              <ul class="leading-[1.2] text-sm">
+                <li>Clarchens Ballhaus Auguststrabe</li>
+                <li>24 10117 Berlin</li>
+              </ul>
+            </div>
+            <div class="flex flex-row gap-x-1">
+              <svg
+                class="w-5 h-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m12 7v5h3m6 0c0 4.9706-4.0294 9-9 9-4.9706 0-9-4.0294-9-9 0-4.9706 4.0294-9 9-9 4.9706 0 9 4.0294 9 9z"
+                  stroke="#FFB206"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <p class="text-sm">
+                <strong>Open Now</strong> - Closes at 2:00 am
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section
+        aria-label="booking"
+        class="bg-[#202125] w-[28rem] px-7 py-8 flex flex-col justify-center gap-y-5 rounded-md"
+      >
+        <header
+          class="flex flex-row justify-between border-b-[0.1rem] border-gray-600 pb-5"
+        >
+          <div class="flex flex-row gap-x-3">
+            <svg
+              class="w-6"
+              fill="#ffffff"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g>
+                <path
+                  d="M336,256c-20.56,0-40.44-9.18-56-25.84-15.13-16.25-24.37-37.92-26-61-1.74-24.62,5.77-47.26,21.14-63.76S312,80,336,80c23.83,0,45.38,9.06,60.7,25.52,15.47,16.62,23,39.22,21.26,63.63h0c-1.67,23.11-10.9,44.77-26,61C376.44,246.82,356.57,256,336,256Zm66-88h0Z"
+                />
+                <path
+                  d="M467.83,432H204.18a27.71,27.71,0,0,1-22-10.67,30.22,30.22,0,0,1-5.26-25.79c8.42-33.81,29.28-61.85,60.32-81.08C264.79,297.4,299.86,288,336,288c36.85,0,71,9,98.71,26.05,31.11,19.13,52,47.33,60.38,81.55a30.27,30.27,0,0,1-5.32,25.78A27.68,27.68,0,0,1,467.83,432Z"
+                />
+                <path
+                  d="m147 260c-35.19 0-66.13-32.72-69-72.93-1.42-20.6 5-39.65 18-53.62 12.86-13.83 31-21.45 51-21.45s38 7.66 50.93 21.57c13.1 14.08 19.5 33.09 18 53.52-2.87 40.2-33.8 72.91-68.93 72.91z"
+                />
+                <path
+                  d="m212.66 291.45c-17.59-8.6-40.42-12.9-65.65-12.9-29.46 0-58.07 7.68-80.57 21.62-25.51 15.83-42.67 38.88-49.6 66.71a27.39 27.39 0 0 0 4.79 23.36 25.32 25.32 0 0 0 20.09 9.76h111a8 8 0 0 0 7.87-6.57c0.11-0.63 0.25-1.26 0.41-1.88 8.48-34.06 28.35-62.84 57.71-83.82a8 8 0 0 0-0.63-13.39c-1.57-0.92-3.37-1.89-5.42-2.89z"
+                />
+              </g>
+            </svg>
+            <h3 class="text-white">4 people</h3>
+          </div>
+          <svg
+            class="w-6 cursor-pointer"
+            fill="none"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m17 15-5-5-5 5"
+              stroke="#FFB206"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </header>
+        <ul
+          class="text-white text-lg font-semibold flex flex-row gap-y-4 flex-wrap"
+        >
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            2
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            3
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            4
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            5
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            6
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            7
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            8
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            9
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            10
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            11
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            12
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            13
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            14
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            15
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            16
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            17
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            18
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            19
+          </li>
+          <li
+            class="hover:bg-[#FFB206] w-12 h-12 flex justify-center items-center cursor-pointer transition-colors duration-100 rounded-full"
+          >
+            20
+          </li>
+        </ul>
+        <footer>
+          <p class="text-[#FFB206]">More than 20 people?</p>
+        </footer>
+      </section>
+      <section
+        aria-label="choosing time"
+        class="bg-[#202125] w-[28rem] px-7 py-8 flex flex-col justify-center gap-y-5 rounded-md"
+      >
+        <header
+          class="flex flex-row gap-x-6 items-center border-b-[0.1rem] border-gray-600 pb-7"
+        >
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m12 7v5h3m6 0c0 4.9706-4.0294 9-9 9-4.9706 0-9-4.0294-9-9 0-4.9706 4.0294-9 9-9 4.9706 0 9 4.0294 9 9z"
+              stroke="#FFB206"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+          <h3 class="text-white">Choose a time:</h3>
+        </header>
+        <ul class="flex flex-row gap-8 h-20">
+          <li>
+            <button
+              class="text-white hover:bg-[#FFB206] hover:font-bold hover:rounded-3xl hover:px-5 hover:py-2"
+            >
+              8:00 pm
+            </button>
+          </li>
+          <li>
+            <button
+              class="text-white hover:bg-[#FFB206] hover:font-bold hover:rounded-3xl hover:px-5 hover:py-2"
+            >
+              8:30 pm
+            </button>
+          </li>
+          <li>
+            <button
+              class="text-white hover:bg-[#FFB206] hover:font-bold hover:rounded-3xl hover:px-5 hover:py-2"
+            >
+              9:00 pm
+            </button>
+          </li>
+          <li>
+            <button
+              class="text-white hover:bg-[#FFB206] hover:font-bold hover:rounded-3xl hover:px-5 hover:py-2"
+            >
+              9:30 pm
+            </button>
+          </li>
+        </ul>
+      </section>
+      <button
+        class="bg-[#FFB206] text-white border-2 border-white font-semibold rounded-3xl py-3 px-20 flex items-center justify-center hover:border-2 hover:border-[#FFB206] hover:bg-white hover:text-[#FFB206] transition-colors duration-150"
+      >
+        Reserve a Table
+      </button>
+    </main>
+  </body>
+</html>
