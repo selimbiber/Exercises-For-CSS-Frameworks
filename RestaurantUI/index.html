@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="./output.css" />
     <title>Restaurant UI Kit | iCodeThis</title>
   </head>
-  <body class="bg-[#F6F6F6] min-h-screen grid place-items-center p-4">
-    <main class="h-full flex flex-col justify-center items-center gap-y-4">
+  <body class="bg-[#F6F6F6] min-h-screen grid place-items-center p-10">
+    <main class="h-full flex flex-col gap-y-5 items-center">
       <section
         aria-label="restaurants"
         class="bg-[#202125] w-[28rem] px-7 py-5 flex flex-col justify-center gap-y-8 rounded-md"
@@ -233,7 +233,7 @@
           </li>
         </ul>
         <footer>
-          <p class="text-[#FFB206]">More than 20 people?</p>
+          <p class="text-[#FFB206] cursor-pointer">More than 20 people?</p>
         </footer>
       </section>
       <section
@@ -241,7 +241,7 @@
         class="bg-[#202125] w-[28rem] px-7 py-8 flex flex-col justify-center gap-y-5 rounded-md"
       >
         <header
-          class="flex flex-row gap-x-6 items-center border-b-[0.1rem] border-gray-600 pb-7"
+          class="flex flex-row gap-x-5 items-center border-b-[0.1rem] border-gray-600 pb-7"
         >
           <svg
             class="w-5 h-5"
@@ -259,31 +259,31 @@
           </svg>
           <h3 class="text-white">Choose a time:</h3>
         </header>
-        <ul class="flex flex-row gap-8 h-20">
+        <ul class="flex flex-row justify-between gap-4 flex-wrap pr-4">
           <li>
             <button
-              class="text-white hover:bg-[#FFB206] hover:font-bold hover:rounded-3xl hover:px-5 hover:py-2"
+              class="text-white text-lg hover:bg-[#FFB206] hover:font-semibold rounded-3xl px-4 py-2 transition-colors duration-100"
             >
               8:00 pm
             </button>
           </li>
           <li>
             <button
-              class="text-white hover:bg-[#FFB206] hover:font-bold hover:rounded-3xl hover:px-5 hover:py-2"
+              class="text-white text-lg hover:bg-[#FFB206] hover:font-semibold rounded-3xl px-4 py-2 transition-colors duration-100"
             >
               8:30 pm
             </button>
           </li>
           <li>
             <button
-              class="text-white hover:bg-[#FFB206] hover:font-bold hover:rounded-3xl hover:px-5 hover:py-2"
+              class="text-white text-lg hover:bg-[#FFB206] hover:font-semibold rounded-3xl px-4 py-2 transition-colors duration-100"
             >
               9:00 pm
             </button>
           </li>
           <li>
             <button
-              class="text-white hover:bg-[#FFB206] hover:font-bold hover:rounded-3xl hover:px-5 hover:py-2"
+              class="text-white text-lg hover:bg-[#FFB206] hover:font-semibold rounded-3xl px-4 py-2 transition-colors duration-100"
             >
               9:30 pm
             </button>
@@ -291,7 +291,7 @@
         </ul>
       </section>
       <button
-        class="bg-[#FFB206] text-white border-2 border-white font-semibold rounded-3xl py-3 px-20 flex items-center justify-center hover:border-2 hover:border-[#FFB206] hover:bg-white hover:text-[#FFB206] transition-colors duration-150"
+        class="bg-[#FFB206] text-white border-2 border-white font-semibold rounded-3xl py-4 px-20 flex items-center justify-center hover:border-2 hover:border-[#FFB206] hover:bg-white hover:text-[#FFB206] transition-colors duration-150"
       >
         Reserve a Table
       </button>
