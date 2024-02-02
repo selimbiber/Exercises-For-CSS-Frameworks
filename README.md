@@ -13,5 +13,6 @@ I code the designs published on iCodeThis site with Tailwind CSS.
 ### [Restaurant UI Kit](https://htmlpreview.github.io/?https://github.com/selimbiber/Tailwind-CSS-Challenges/blob/main/RestaurantUI/index.html)
 ### [Account UI Kit](https://htmlpreview.github.io/?https://github.com/selimbiber/Tailwind-CSS-Challenges/blob/main/AccountUI/index.html)
 ### [Login Screen](https://htmlpreview.github.io/?https://github.com/selimbiber/Tailwind-CSS-Challenges/blob/main/LoginScreen/index.html)
+### [Blog Preview Card](https://htmlpreview.github.io/?https://github.com/selimbiber/Tailwind-CSS-Challenges/blob/main/BlogPreviewCard/index.html)
 ---
 ## [Repo Link for Pure CSS Challenges](https://github.com/selimbiber/30Day30Project-Pure-CSS-Challenges)
