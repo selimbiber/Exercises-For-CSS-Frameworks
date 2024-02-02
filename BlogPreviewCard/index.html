@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/tailwind.min.css" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body class="bg-[#F5D04E] font-[figtree] min-h-screen grid place-items-center p-5">
+    <main class="bg-white w-80 md:w-96 md:h-[32rem] p-5 md:p-5 flex flex-col gap-y-2 rounded-3xl border border-black relative before:block before:absolute before:top-2 before:left-2 before:w-full before:h-full before:bg-black before:-z-10 before:rounded-3xl">
+      <img src="./images/illustration-article.svg" alt="" class="rounded-lg" />
+      <header class="flex flex-col gap-y-3 mt-2">
+        <h1 class="font-bold bg-[#F5D04E] w-24 text-center py-1 rounded"><a href="#" class="no-underline">Learning</a></h1>
+        <p class="font-semibold">Published 21 Dec 2023</p>
+      </header>
+      <article class="flex flex-col gap-y-4">
+        <h2 class="font-bold text-xl md:text-2xl transition-colors duration-150 hover:text-[#F5D04E]"><a href="#" class="no-underline">HTML & CSS foundations</a></h2>
+        <p class="text-gray-500 text-sm md:text-base">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <footer class="mt-1">
+          <a href="#" class="font-bold no-underline flex items-center gap-x-3"><img
+            src="./images/image-avatar.webp"
+            alt="greg hooper profile image"
+            class="w-8 h-8 rounded-full"
+          /> Greg Hooper</a>
+          
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
