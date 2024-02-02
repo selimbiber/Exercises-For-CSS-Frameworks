@@ -14,6 +14,7 @@ Thanks for checking out this front-end coding challenge.
   - [The challenge](#the-challenge)
   - [Built with](#built-with)
   - [Preview Images](#preview-images)
+  - [Preview Link](#preview-link)
 - [Author](#author)
 
 ## The challenge
@@ -37,7 +38,13 @@ Your users should be able to:
 
 ### Mobile Design
 
+![BlogPreviewCard_MobileDesign](https://github.com/selimbiber/Tailwind-CSS-Challenges/assets/117529414/087f0386-b27e-4d7d-833e-3214772ccde1)
+
 ### Desktop Design
+
+![BlogPreviewCard_DesktopDesign](https://github.com/selimbiber/Tailwind-CSS-Challenges/assets/117529414/ce08486c-69d3-4f83-83d4-a15871e04351)
+
+## [Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/Tailwind-CSS-Challenges/blob/main/BlogPreviewCard/index.html)
 
 ## Author:
 
